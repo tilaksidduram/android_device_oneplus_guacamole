@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_guacamole.mk
+    $(LOCAL_DIR)/havoc_guacamole.mk
+
+COMMON_LUNCH_CHOICES := \
+    havoc_guacamole-user \
+    havoc_guacamole-userdebug \
+    havoc_guacamole-eng
